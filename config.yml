@@ -1,8 +1,8 @@
 baseURL: 'https://wardhane.github.io/journal'
 languageCode: 'en-us'
-title: 'My technical Journal'
+title: 'Wardhane - Technical Journal and learning Journey'
 paginate: 5
-theme: 'hugo-PaperMod'
+theme: 'PaperMod'
 
 enableInlineShortcodes: true
 enableRobotsTXT: true
@@ -76,10 +76,9 @@ params:
     homeInfoParams:
         Title: "PaperMod"
         Content: >
-            Welcome to demo of hugo's theme PaperMod.
-            - **PaperMod** is a simple but fast and responsive theme with useful feature-set that enhances UX.
+            Welcome to my learning Journal. I love learning and want to invest in sharing my learnings with a wider audience.
             - Do give a 🌟 on Github !
-            - PaperMod is based on theme [Paper](https://github.com/nanxiaobei/hugo-paper).
+            
     socialIcons:
         - name: github
           url: "https://github.com/wardhane/journal/"
