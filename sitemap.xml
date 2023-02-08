@@ -2,6 +2,9 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://wardhane.github.io/journal/cassandra-read/</loc>
+    <lastmod>2022-12-23T12:10:15-06:00</lastmod>
+  </url><url>
     <loc>https://wardhane.github.io/journal/categories/</loc>
   </url><url>
     <loc>https://wardhane.github.io/journal/series/</loc>

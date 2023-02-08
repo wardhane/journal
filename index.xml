@@ -10,5 +10,14 @@
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language><atom:link href="https://wardhane.github.io/journal/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Cassandra Read</title>
+      <link>https://wardhane.github.io/journal/cassandra-read/</link>
+      <pubDate>Fri, 23 Dec 2022 12:10:15 -0600</pubDate>
+      
+      <guid>https://wardhane.github.io/journal/cassandra-read/</guid>
+      <description>How do reads work in Cassandra Welcome to my technical blog. In this blog, we will dive into the inner workings of Cassandra, the popular, high-performance, and highly-scalable distributed database system. We will explore how it handles read requests from clients. We will cover topics such as how Cassandra achieves its high level of availability, how it routes read requests to the appropriate node, and how it handles situations where a node does not have a replica of the requested data.</description>
+    </item>
+    
   </channel>
 </rss>
