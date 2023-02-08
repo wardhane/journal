@@ -27,6 +27,8 @@ languages:
           series: series
         menu:
             main:
+                - name: Posts
+                  url: content/
                 - name: Archive
                   url: archives
                   weight: 5
