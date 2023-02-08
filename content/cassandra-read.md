@@ -3,13 +3,6 @@ title: "Cassandra Read"
 date: 2022-12-23T12:10:15-06:00
 draft: true
 ---
-
----
-title: "Cassandra Read"
-date: 2022-12-23T12:10:15-06:00
-draft: true
----
-
 ## How do reads work in Cassandra
 
 Welcome to my technical blog. In this blog, we will dive into the inner workings of Cassandra, the popular, high-performance, and highly-scalable distributed database system. We will explore how it handles read requests from clients. We will cover topics such as how Cassandra achieves its high level of availability, how it routes read requests to the appropriate node, and how it handles situations where a node does not have a replica of the requested data. By the end of this blog, you will have a solid understanding of how reads work in Cassandra and how it helps to ensure a fast and reliable experience for users. So, let's get started!
