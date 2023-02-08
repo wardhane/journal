@@ -1,9 +1,8 @@
 ---
-title: "Cassandra Read"
-date: 2022-12-23T12:10:15-06:00
+title: "Reads in Cassandra"
+date: 2023-02-08T11:36:20-06:00
 draft: false
 ---
-## How do reads work in Cassandra
 
 Welcome to my technical blog. In this blog, we will dive into the inner workings of Cassandra, the popular, high-performance, and highly-scalable distributed database system. We will explore how it handles read requests from clients. We will cover topics such as how Cassandra achieves its high level of availability, how it routes read requests to the appropriate node, and how it handles situations where a node does not have a replica of the requested data. By the end of this blog, you will have a solid understanding of how reads work in Cassandra and how it helps to ensure a fast and reliable experience for users. So, let's get started!
 
@@ -71,3 +70,4 @@ and the relationship between Partition Index Summary File and Partition Index fi
 * If data exists on disk, then the partition index summary file is used to identify the offset on the partition index file.
 * The byte offset of the partition key is fetched from the partition index file using the offset from the partition index summary file. OS caching of the partition index file can further improve the seek performance.
 * Data is read from the data file using the byte offset of the partition key.
+
