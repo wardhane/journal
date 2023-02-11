@@ -1,7 +1,9 @@
 ---
 title: "Speak Easy: From Speech to Text with AI"
 date: 2022-12-25T10:18:59-06:00
-draft: True
+draft: False
+
+tags: ["Text to Speech", "Flutter", "OpenAI"]
 ---
 
 ## Introduction

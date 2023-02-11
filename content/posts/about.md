@@ -1,7 +1,9 @@
 ---
-title: "About"
+title: "About me"
 date: 2023-02-08T11:33:07-06:00
 draft: False
+
+tags: ["first"]
 ---
 
 Hi there! I'm thrilled you're visiting my learning journal. I'm passionate about learning and am excited to share my knowledge and experiences with a wider audience.
