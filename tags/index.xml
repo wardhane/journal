@@ -5,10 +5,84 @@
     <link>https://wardhane.github.io/journal/tags/</link>
     <description>Recent content in Tags on The learning Journal of @Wardhane</description>
     <image>
+      <title>The learning Journal of @Wardhane</title>
       <url>https://wardhane.github.io/journal/papermod-cover.png</url>
       <link>https://wardhane.github.io/journal/papermod-cover.png</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language><atom:link href="https://wardhane.github.io/journal/tags/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-us</language>
+    <lastBuildDate>Wed, 08 Feb 2023 11:36:20 -0600</lastBuildDate><atom:link href="https://wardhane.github.io/journal/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Cassandra</title>
+      <link>https://wardhane.github.io/journal/tags/cassandra/</link>
+      <pubDate>Wed, 08 Feb 2023 11:36:20 -0600</pubDate>
+      
+      <guid>https://wardhane.github.io/journal/tags/cassandra/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Databases</title>
+      <link>https://wardhane.github.io/journal/tags/databases/</link>
+      <pubDate>Wed, 08 Feb 2023 11:36:20 -0600</pubDate>
+      
+      <guid>https://wardhane.github.io/journal/tags/databases/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Software Engineering</title>
+      <link>https://wardhane.github.io/journal/tags/software-engineering/</link>
+      <pubDate>Wed, 08 Feb 2023 11:36:20 -0600</pubDate>
+      
+      <guid>https://wardhane.github.io/journal/tags/software-engineering/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>System Design</title>
+      <link>https://wardhane.github.io/journal/tags/system-design/</link>
+      <pubDate>Wed, 08 Feb 2023 11:36:20 -0600</pubDate>
+      
+      <guid>https://wardhane.github.io/journal/tags/system-design/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>first</title>
+      <link>https://wardhane.github.io/journal/tags/first/</link>
+      <pubDate>Wed, 08 Feb 2023 11:33:07 -0600</pubDate>
+      
+      <guid>https://wardhane.github.io/journal/tags/first/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Flutter</title>
+      <link>https://wardhane.github.io/journal/tags/flutter/</link>
+      <pubDate>Sun, 25 Dec 2022 10:18:59 -0600</pubDate>
+      
+      <guid>https://wardhane.github.io/journal/tags/flutter/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>OpenAI</title>
+      <link>https://wardhane.github.io/journal/tags/openai/</link>
+      <pubDate>Sun, 25 Dec 2022 10:18:59 -0600</pubDate>
+      
+      <guid>https://wardhane.github.io/journal/tags/openai/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Text to Speech</title>
+      <link>https://wardhane.github.io/journal/tags/text-to-speech/</link>
+      <pubDate>Sun, 25 Dec 2022 10:18:59 -0600</pubDate>
+      
+      <guid>https://wardhane.github.io/journal/tags/text-to-speech/</guid>
+      <description></description>
+    </item>
+    
   </channel>
 </rss>

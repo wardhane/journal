@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Databases on The learning Journal of @Wardhane</title>
+    <link>https://wardhane.github.io/journal/tags/databases/</link>
+    <description>Recent content in Databases on The learning Journal of @Wardhane</description>
+    <image>
+      <title>The learning Journal of @Wardhane</title>
+      <url>https://wardhane.github.io/journal/papermod-cover.png</url>
+      <link>https://wardhane.github.io/journal/papermod-cover.png</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 08 Feb 2023 11:36:20 -0600</lastBuildDate><atom:link href="https://wardhane.github.io/journal/tags/databases/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Reads in Cassandra</title>
+      <link>https://wardhane.github.io/journal/posts/reads-in-cassandra/</link>
+      <pubDate>Wed, 08 Feb 2023 11:36:20 -0600</pubDate>
+      
+      <guid>https://wardhane.github.io/journal/posts/reads-in-cassandra/</guid>
+      <description>Cassandra is a widely used NoSQL database that prioritizes high scalability and high availability over consistency. This article delves into the inner workings of reads in Cassandra and how it leverages various techniques to improve read performance. The article covers key topics such as Cassandra&amp;rsquo;s datastore architecture. The article provides a comprehensive overview of how Cassandra manages read requests, how it ensures fast access to data, and how it balances the trade-off between read performance and consistency.</description>
+    </item>
+    
+  </channel>
+</rss>
