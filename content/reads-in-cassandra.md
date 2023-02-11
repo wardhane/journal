@@ -2,6 +2,7 @@
 title: "Reads in Cassandra"
 date: 2023-02-08T11:36:20-06:00
 draft: false
+summary: Cassandra is a widely used NoSQL database that prioritizes high scalability and high availability over consistency. This article delves into the inner workings of reads in Cassandra and how it leverages various techniques to improve read performance. The article covers key topics such as Cassandra's datastore architecture. The article provides a comprehensive overview of how Cassandra manages read requests, how it ensures fast access to data, and how it balances the trade-off between read performance and consistency. 
 ---
 
 Welcome to my technical blog. In this blog, we will dive into the inner workings of Cassandra, the popular, high-performance, and highly-scalable distributed database system. We will explore how it handles read requests from clients. We will cover topics such as how Cassandra achieves its high level of availability, how it routes read requests to the appropriate node, and how it handles situations where a node does not have a replica of the requested data. By the end of this blog, you will have a solid understanding of how reads work in Cassandra and how it helps to ensure a fast and reliable experience for users. So, let's get started!
