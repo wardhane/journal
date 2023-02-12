@@ -16,7 +16,7 @@ Cassandra enables clients to access data from any node, even if that node doesn'
 
 Cassandra uses LSM (Log-structured Merge Trees) to persist its data, which is similar to databases such as RocksDb and LevelDb. This is different from traditional RDBMSs, which typically use a B-tree implementation. To ensure durability, Cassandra also writes data to a commit log, similar to a Write-Ahead Log (WAL) and writes to memory as well.
 
-Each table in Cassandra has an associated in-memory table. As data is written to the commit log in a sequential order, it is sorted by the partition key and clustering key and stored within the in-memory table. The partition key determines which node the data is stored on, and the clustering key determines the order in which it is stored on that node. The primary key for Cassandra is effectively composed of the partition key and the clustering key. When the in-memory table reaches its optimal size, determined by the chunk size of the data, it is saved to disk as an SSTable (Sorted String Table). This table contains a data file and an index file, both of which include in-memory indexes. Regular compaction is performed by merging and rewriting SSTables which reduces disk space and improves read performance by removing outdated data and consolidating it into fewer, larger SSTables. 
+Each table in Cassandra has an associated in-memory table. As data is written to the commit log in a sequential order, it is sorted by the partition key and clustering key and stored within the in-memory table. The partition key determines which node the data is stored on, and the clustering key determines the order in which it is stored on that node. The primary key for Cassandra is effectively composed of the partition key and the clustering key. When the in-memory table reaches its optimal size, determined by the chunk size of the data, it is saved to disk as an SSTable (Sorted String Table). This table contains a data file and an index file, both of which include in-memory indexes. Regular compaction is performed by merging and rewriting SSTables which reduces disk space and improves read performance by removing outdated data and consolidating it into fewer, larger SSTables.
 
 Data retrieval on a single node follows a similar path with a few optimisations.
 
@@ -28,7 +28,7 @@ Data retrieval on a single node follows a similar path with a few optimisations.
 
 Cassandra uses several types of caches to improve read performance.
 
-* Row Cache: This cache stores the most recent data for a table in memory, allowing for fast access to frequently-accessed data. It is useful for read-heavy workloads and can take considerable amount of space. 
+* Row Cache: This cache stores the most recent data for a table in memory, allowing for fast access to frequently-accessed data. It is useful for read-heavy workloads and can take considerable amount of space.
 
 * Key Cache: This cache stores the keys of recently-accessed rows in memory, allowing for faster lookups. It is useful for write-heavy workloads. In essence, it is a cache of the PartitionIndex file for a table which is a map of partition keys to their SSTable offsets.
 
@@ -74,4 +74,3 @@ and the relationship between Partition Index Summary File and Partition Index fi
 * If data exists on disk, then the partition index summary file is used to identify the offset on the partition index file.
 * The byte offset of the partition key is fetched from the partition index file using the offset from the partition index summary file. OS caching of the partition index file can further improve the seek performance.
 * Data is read from the data file using the byte offset of the partition key.
-
