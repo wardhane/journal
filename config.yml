@@ -49,7 +49,7 @@ params:
     # author: ["Me", "You"] # multiple authors
 
     defaultTheme: auto
-    # disableThemeToggle: true
+    disableThemeToggle: false
     ShowShareButtons: true
     ShowReadingTime: true
     # disableSpecial1stPost: true
