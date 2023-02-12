@@ -1,6 +1,6 @@
 baseURL: 'https://wardhane.github.io/journal'
 languageCode: 'en-us'
-title: 'The learning Journal of @Wardhane'
+title: 'The Learning Journal of @Wardhane'
 paginate: 5
 theme: 'PaperMod'
 
