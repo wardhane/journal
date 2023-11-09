@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Posts on The Learning Journal of @Wardhane</title>
+    <link>https://wardhane.github.io/journal/posts/</link>
+    <description>Recent content in Posts on The Learning Journal of @Wardhane</description>
+    <image>
+      <title>The Learning Journal of @Wardhane</title>
+      <url>https://wardhane.github.io/journal/papermod-cover.png</url>
+      <link>https://wardhane.github.io/journal/papermod-cover.png</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 08 Feb 2023 11:36:20 -0600</lastBuildDate><atom:link href="https://wardhane.github.io/journal/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Reads in Cassandra</title>
+      <link>https://wardhane.github.io/journal/posts/reads-in-cassandra/</link>
+      <pubDate>Wed, 08 Feb 2023 11:36:20 -0600</pubDate>
+      
+      <guid>https://wardhane.github.io/journal/posts/reads-in-cassandra/</guid>
+      <description>Welcome to my technical blog. In this blog, we will dive into the inner workings of Cassandra, the popular, high-performance, and highly-scalable distributed database system. We will explore how it handles read requests from clients. We will cover topics such as how Cassandra achieves its high level of availability, how it routes read requests to the appropriate node, and how it handles situations where a node does not have a replica of the requested data.</description>
+    </item>
+    
+    <item>
+      <title>About me</title>
+      <link>https://wardhane.github.io/journal/posts/about/</link>
+      <pubDate>Wed, 08 Feb 2023 11:33:07 -0600</pubDate>
+      
+      <guid>https://wardhane.github.io/journal/posts/about/</guid>
+      <description>Hi there! I&amp;rsquo;m thrilled you&amp;rsquo;re visiting my learning journal. I&amp;rsquo;m passionate about learning and am excited to share my knowledge and experiences with a wider audience.
+Before joining Maersk, I spent over a decade at Schlumberger where I started as a software engineer and progressed to become an architect, leading teams and driving innovative projects. During my time at Schlumberger, I honed my technical skills and developed a strong foundation in software development and team leadership.</description>
+    </item>
+    
+    <item>
+      <title>Speak Easy: From Speech to Text with AI</title>
+      <link>https://wardhane.github.io/journal/posts/dictation/</link>
+      <pubDate>Sun, 25 Dec 2022 10:18:59 -0600</pubDate>
+      
+      <guid>https://wardhane.github.io/journal/posts/dictation/</guid>
+      <description>Introduction One of my ambitions is to share content more often, but I often struggle with proofreading and capturing my ideas. I believe that my content is not perfect enough to be shared with a wider audience, which hinders my ability to share it. When I do have an idea for a blog, I often don&amp;rsquo;t have the time to record it because I&amp;rsquo;m in the middle of another activity. Even when I do have the time, I find it difficult to structure the content to a level that I feel is fit to share.</description>
+    </item>
+    
+  </channel>
+</rss>

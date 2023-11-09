@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>System Design on The Learning Journal of @Wardhane</title>
+    <link>https://wardhane.github.io/journal/tags/system-design/</link>
+    <description>Recent content in System Design on The Learning Journal of @Wardhane</description>
+    <image>
+      <title>The Learning Journal of @Wardhane</title>
+      <url>https://wardhane.github.io/journal/papermod-cover.png</url>
+      <link>https://wardhane.github.io/journal/papermod-cover.png</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 08 Feb 2023 11:36:20 -0600</lastBuildDate><atom:link href="https://wardhane.github.io/journal/tags/system-design/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Reads in Cassandra</title>
+      <link>https://wardhane.github.io/journal/posts/reads-in-cassandra/</link>
+      <pubDate>Wed, 08 Feb 2023 11:36:20 -0600</pubDate>
+      
+      <guid>https://wardhane.github.io/journal/posts/reads-in-cassandra/</guid>
+      <description>Welcome to my technical blog. In this blog, we will dive into the inner workings of Cassandra, the popular, high-performance, and highly-scalable distributed database system. We will explore how it handles read requests from clients. We will cover topics such as how Cassandra achieves its high level of availability, how it routes read requests to the appropriate node, and how it handles situations where a node does not have a replica of the requested data.</description>
+    </item>
+    
+  </channel>
+</rss>
